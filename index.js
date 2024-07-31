@@ -28,6 +28,6 @@ app.listen(PORT,()=>{
     console.log(`server started runnng at:${PORT}`)
 })
 
-app.use("/home",(req,res)=>{
+app.use("/",(req,res)=>{
     res.send("welcome to suby")
 })
